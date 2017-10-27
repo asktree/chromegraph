@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "ChromeGraph",
+  "description": "Tracks your tab switching as a graph in MongoDB",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["tabswitch.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ]
+}
